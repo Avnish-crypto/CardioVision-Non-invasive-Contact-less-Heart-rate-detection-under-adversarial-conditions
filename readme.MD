@@ -55,9 +55,8 @@ All notebooks contains detailed explanation of code Written.
 ***********************************************************************************************************************************************************
 
 **Note - Keep all notebooks, data , aug_data , lol_dataset , models in same directory(Folder).**
+**** Please follow report in case of any doubt as it contains the most detailed explaination.
 
 Please feel free to contact us in case of any issue.
-
-
 Avnish Tripathi - avnisht22@iitk.ac.in 
 

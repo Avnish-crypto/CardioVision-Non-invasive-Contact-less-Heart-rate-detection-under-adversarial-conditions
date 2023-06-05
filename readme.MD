@@ -1,40 +1,45 @@
-base - conda
-python version - 3.9 
-******************************************************************************************************************************************************
-Python Modules -
+## base - conda
+## python version - 3.9 
+***********************************************
+## Python Modules -
 
-os - provides a way to interact with the operating system. </br>
-PIL - for working with images. </br>
-glob - provides a way to retrieve files and directories. </br>
-cv2 - providing various functions and classes for image and video processing and analysis. </br>
-labelme - for creating and editing annotations for computer vision. </br>
-albumentations - for augmenting dataset. </br>
-numpy -  for numerical computing. </br>
-json - provides functions for encoding and decoding JSON(labels). </br>
-tensorflow - providing a comprehensive ecosystem for building, training, and deploying machine learning models. </br>
-matplotlib - provides a wide range of tools for generating plots. </br>
-scipy - provides a collection of mathematical algorithms and functions for optimization, integration, interpolation, signal processing.</br>
-random - for generating random numbers from different distributions.</br>
-huggingface_hub - provides a central repository for sharing and reusing models.</br>
-keras - for building and training deep learning models.</br>
+os - provides a way to interact with the operating system <br>
+PIL - for working with images. <br>
+glob - provides a way to retrieve files and directories. <br>
+cv2 - providing various functions and classes for image and video processing and analysis. <br>
+labelme - for creating and editing annotations for computer vision. <br>
+albumentations - for augmenting dataset. <br>
+numpy -  for numerical computing. <br>
+json - provides functions for encoding and decoding JSON(labels). <br>
+tensorflow - providing a comprehensive ecosystem for building, training, and deploying machine learning models. <br>
+matplotlib - provides a wide range of tools for generating plots <br>
+scipy - provides a collection of mathematical algorithms and functions for optimization, integration, interpolation, signal processing. <br>
+random - for generating random numbers from different distributions. <br>
+huggingface_hub - provides a central repository for sharing and reusing models. <br>
+keras - for building and training deep learning models.<br>
 
 
 Use !pip install module_name to resolve any missing dependencies.
 
-********************************************************************************************************************************************************
-Dataset - https://drive.google.com/drive/folders/1KfaETUvJ_d0XaoLuJtikIUg4jqr1PAym?usp=sharing </br>
-data - It contains human faces and their forheads as labels. </br>
-aug_data - It contains augmented data. </br>
-lol_dataset - It contains low light and high light images for training of Zero_dce model. </br>
+***********************************************
 
-********************************************************************************************************************************************************
-Models - 
-forehead.h5 - Forehead detection Model for automated ROI detection and motion handling tool. </br>
-model.h5 - Zero dce model trained on updated lol dataset. </br>
-haarcascade_frontalface_default - Hugging_face model that give facial landmarks using which we can try to predict forehead. </br>
+###  Dataset - https://drive.google.com/drive/folders/1KfaETUvJ_d0XaoLuJtikIUg4jqr1PAym?usp=sharing  <br>
+### Forhead Detection Dataset - https://www.kaggle.com/datasets/avnishtripathi/forehead-detection-dataset <br> 
+data - It contains human faces and their forheads as labels. <br>
+aug_data - It contains augmented data. <br>
+lol_dataset - It contains low light and high light images for training of Zero_dce model. <br>
 
-********************************************************************************************************************************************************
-Notebooks - 
+***********************************************
+
+## Models - 
+
+forehead.h5 - Forehead detection Model for automated ROI detection and motion handling tool. <br>
+model.h5 - Zero dce model trained on updated lol dataset. <br>
+haarcascade_frontalface_default - Hugging_face model that give facial landmarks using which we can try to predict forehead. <br>
+
+***********************************************
+
+## Notebooks - 
 
 
 1)- Initial_data_processing_for_dataset_creation - This notebook contains code that we have used for initial preprocessing and augmentation of dataset.
@@ -50,13 +55,13 @@ Notebooks -
 6)- heart_rate_prediction - This notebook contains code for heart rate predcition.
 
 
-All notebooks contains detailed explanation of code Written.
+All notebooks contains detailed explanation of code Written.  <br>
 
-***********************************************************************************************************************************************************
+***********************************************
 
-**Note - Keep all notebooks, data , aug_data , lol_dataset , models in same directory(Folder).**
-**** Please follow report in case of any doubt as it contains the most detailed explaination.
+*Note - Keep all notebooks, data , aug_data , lol_dataset , models in same directory(Folder).* <br>
+*Please refer to the report in case of any doubts as it contains a well-detailed explaination of the entire project *
 
-Please feel free to contact us in case of any issue.
-Avnish Tripathi - avnisht22@iitk.ac.in 
+Please feel free to contact me in case of any issue. <br>
 
+Avnish Tripathi - avnishtripathi22@iitk.ac.in  

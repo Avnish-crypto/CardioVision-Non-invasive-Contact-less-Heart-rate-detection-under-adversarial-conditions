@@ -3,27 +3,26 @@ python version - 3.9
 ******************************************************************************************************************************************************
 Python Modules -
 
-os - provides a way to interact with the operating system. 
-PIL - for working with images.
-glob - provides a way to retrieve files and directories.
-cv2 - providing various functions and classes for image and video processing and analysis.
-labelme - for creating and editing annotations for computer vision.
-albumentations - for augmenting dataset.
-numpy -  for numerical computing.
-json - provides functions for encoding and decoding JSON(labels).
-tensorflow - providing a comprehensive ecosystem for building, training, and deploying machine learning models.
-matplotlib - provides a wide range of tools for generating plots
-scipy - provides a collection of mathematical algorithms and functions for optimization, integration, interpolation, signal processing.
-random - for generating random numbers from different distributions.
-huggingface_hub - provides a central repository for sharing and reusing models.
-keras - for building and training deep learning models.
+os - provides a way to interact with the operating system. </br>
+PIL - for working with images. </br>
+glob - provides a way to retrieve files and directories. </br>
+cv2 - providing various functions and classes for image and video processing and analysis. </br>
+labelme - for creating and editing annotations for computer vision. </br>
+albumentations - for augmenting dataset. </br>
+numpy -  for numerical computing. </br>
+json - provides functions for encoding and decoding JSON(labels). </br>
+tensorflow - providing a comprehensive ecosystem for building, training, and deploying machine learning models. </br>
+matplotlib - provides a wide range of tools for generating plots. </br>
+scipy - provides a collection of mathematical algorithms and functions for optimization, integration, interpolation, signal processing.</br>
+random - for generating random numbers from different distributions.</br>
+huggingface_hub - provides a central repository for sharing and reusing models.</br>
+keras - for building and training deep learning models.</br>
 
 
 Use !pip install module_name to resolve any missing dependencies.
 
 ********************************************************************************************************************************************************
-Dataset - {link to drive}
-
+Dataset - https://drive.google.com/drive/folders/1KfaETUvJ_d0XaoLuJtikIUg4jqr1PAym?usp=sharing
 data - It contains human faces and their forheads as labels.
 aug_data - It contains augmented data.
 lol_dataset - It contains low light and high light images for training of Zero_dce model.
@@ -59,9 +58,6 @@ All notebooks contains detailed explanation of code Written.
 
 Please feel free to contact us in case of any issue.
 
-Allan Robey - allanrobey22@iitk.ac.in
-Avnish Tripathi - avnisht22@iitk.ac.in
-Divyesh Tripathi- divyeshdt22@iitk.ac.in
-Kush Shah - kushshah22@iitk.ac.in
-Pulkit Sharma - pulkitsh22@iitk.ac.in
+
+Avnish Tripathi - avnisht22@iitk.ac.in 
 

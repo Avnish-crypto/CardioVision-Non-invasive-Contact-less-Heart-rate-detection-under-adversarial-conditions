@@ -22,16 +22,16 @@ keras - for building and training deep learning models.</br>
 Use !pip install module_name to resolve any missing dependencies.
 
 ********************************************************************************************************************************************************
-Dataset - https://drive.google.com/drive/folders/1KfaETUvJ_d0XaoLuJtikIUg4jqr1PAym?usp=sharing
-data - It contains human faces and their forheads as labels.
-aug_data - It contains augmented data.
-lol_dataset - It contains low light and high light images for training of Zero_dce model.
+Dataset - https://drive.google.com/drive/folders/1KfaETUvJ_d0XaoLuJtikIUg4jqr1PAym?usp=sharing </br>
+data - It contains human faces and their forheads as labels. </br>
+aug_data - It contains augmented data. </br>
+lol_dataset - It contains low light and high light images for training of Zero_dce model. </br>
 
 ********************************************************************************************************************************************************
 Models - 
-forehead.h5 - Forehead detection Model for automated ROI detection and motion handling tool.
-model.h5 - Zero dce model trained on updated lol dataset.
-haarcascade_frontalface_default - Hugging_face model that give facial landmarks using which we can try to predict forehead.
+forehead.h5 - Forehead detection Model for automated ROI detection and motion handling tool. </br>
+model.h5 - Zero dce model trained on updated lol dataset. </br>
+haarcascade_frontalface_default - Hugging_face model that give facial landmarks using which we can try to predict forehead. </br>
 
 ********************************************************************************************************************************************************
 Notebooks - 

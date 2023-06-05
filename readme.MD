@@ -28,6 +28,7 @@ Use !pip install module_name to resolve any missing dependencies.
 data - It contains human faces and their forheads as labels. <br>
 aug_data - It contains augmented data. <br>
 lol_dataset - It contains low light and high light images for training of Zero_dce model. <br>
+forehead.h5 - It is our forehead detection model (not able to upload it here because of size constraints).
 
 ***********************************************
 
